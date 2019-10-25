@@ -17,5 +17,5 @@ def turtle_traits(turtles)
       new_array << trait
     end
   end
-  new_array
+  p new_array
 end
