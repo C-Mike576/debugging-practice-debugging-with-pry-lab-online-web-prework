@@ -12,7 +12,7 @@ def crew
   crew_array
 end
 
-def greet_crew (crew)
+def greet_crew(crew)
   crew.each {|crew_member| "Hello #{crew_member}."}
 end
 
