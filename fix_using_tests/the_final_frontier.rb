@@ -4,11 +4,12 @@ end
 
 
 def state_log(star_date)
-  "Captain's Log, star date #{star_date}."
+  p "Captain's Log, star date #{star_date}."
 end
 
 def crew
-  ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
+  crew_array = ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
+  crew_array
 end
 
 def greet_crew (crew)
