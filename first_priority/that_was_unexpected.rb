@@ -1,6 +1,6 @@
 class Person
   attr_accessor :name, :candy_lover
-end
+  
   def initialize(name, candy_lover)
     @name = name
     @candy_lover = candy_lover
