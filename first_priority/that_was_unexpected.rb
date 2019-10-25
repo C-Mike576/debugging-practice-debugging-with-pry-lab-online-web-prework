@@ -23,9 +23,9 @@ class Person
   def ballin_candy_lover?
     if @candy_lover == true
       p "Aw sweet, this cat loves them some candy!"
-    else
-      10.times do
-      p "not a ballin candy lover"
+   #else
+     # 10.times do
+    #  p "not a ballin candy lover"
     end
   end
 end
