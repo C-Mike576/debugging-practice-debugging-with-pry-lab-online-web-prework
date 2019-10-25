@@ -26,6 +26,6 @@ class Person
     else
       10.times do
       p "not a ballin candy lover"
-    end
+    
   end
 end
