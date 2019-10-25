@@ -7,7 +7,7 @@ class Person
     @name = name
     @candy_lover = candy_lover
   end
-
+=begin
   def tall?
     return true
   end
@@ -19,7 +19,7 @@ class Person
   def likes_candy?
     return true
   end
-
+=end
   def ballin_candy_lover?
     if @candy_lover == true
       puts "Aw sweet, this cat loves them some candy!"
